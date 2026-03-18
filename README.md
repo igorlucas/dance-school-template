@@ -1,1 +1,0 @@
-# dance-school-template
