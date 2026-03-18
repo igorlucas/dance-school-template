@@ -496,11 +496,11 @@ button.owl-next {
     border: 14px solid #fff;
 }
 
-.image_box img {
+/* .image_box img {
     border-radius: 50%;
     width: 100%;
     height: auto;
-}
+} */
 
 .image_box:hover {
     background-color: #f1f1f1;
@@ -720,6 +720,7 @@ button.owl-next {
     width: 70%;
     float: left;
     padding-top: 35px;
+    padding-left: 35px;
 }
 
 .teachers_left_2 {
@@ -728,12 +729,19 @@ button.owl-next {
     text-align: right;
 }
 
+.teachers_main_2 .teachers_left_2 .teachers_img img {
+    margin-top: 35px !important;
+}
+
 .teachers_right_2 {
     width: 70%;
     float: left;
     padding-top: 35px;
+    padding-right: 35px;
     text-align: right;
 }
+
+
 
 .name_text{
     width: 100%;
@@ -759,6 +767,7 @@ button.owl-next {
     margin: 0px;
     padding-top: 10px;
     padding-bottom: 30px;
+    text-align: justify;
 }
 
 .teachers_sectiion .carousel-indicators li {
@@ -775,10 +784,10 @@ button.owl-next {
 }
 
 .teachers_img img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     border-radius: 50%;
-    height: 10rem;
-    width: 10rem;
-    margin: 2rem;
 }
 
 /* customer section end */
